@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 Route::get('/posts', Posts::class);
 Route::get('/create-post', CreatePost::class);
-Route::get('/show-post', ShowPost::class);
+Route::get('/show-post/{id}', ShowPost::class);
 Route::get('/update-post', UpdatePost::class);
 Route::get('/delete-post', DeletePost::class);
 

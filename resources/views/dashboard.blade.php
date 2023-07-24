@@ -12,11 +12,11 @@
                     {{ __("You're logged in!") }}
 
                     <ul>
-<li><a href="/posts" wire:navigate>Posts</a></li>
-<li><a href="/create-post" wire:navigate>Create Post</a></li>
-<li><a href="/update-post" wire:navigate>Update Post</a></li>
-<li><a href="/delete-post" wire:navigate>Delete Post</a></li>
-                        
+                        <li><a href="/posts" wire:navigate>Posts</a></li>
+                        <li><a href="/show-post/1" wire:navigate>Show Post</a></li>
+                        <li><a href="/create-post" wire:navigate>Create Post</a></li>
+                        <li><a href="/update-post" wire:navigate>Update Post</a></li>
+                        <li><a href="/delete-post" wire:navigate>Delete Post</a></li>
                     </ul>
                 </div>
             </div>
