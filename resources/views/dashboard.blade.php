@@ -18,6 +18,9 @@
                         <li><a href="/update-post" wire:navigate>Update Post</a></li>
                         <li><a href="/delete-post" wire:navigate>Delete Post</a></li>
                     </ul>
+
+                    <livewire:counter.counter />
+                    <livewire:counter.counter-child />
                 </div>
             </div>
         </div>
